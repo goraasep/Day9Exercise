@@ -7,12 +7,10 @@ import java.util.Scanner;
 public class SubMenu {
     private User user = null;
     private Scanner scanner;
-//    private List<Todo> todoList = new ArrayList<>();
 
     SubMenu(User user, Scanner scanner) {
         this.user = user;
         this.scanner = scanner;
-//        this.todoList = user.getTodoList();
     }
 
     public void run() {
